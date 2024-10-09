@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="v">
+    <div class="container">
+        <div class="left">
+            <a href="cart.html" id="next-page">Cart</a>
+        </div>
+        <div class="right">
+            <a href="cart.html" id="next-page">Cart</a>
+            <a href="login.html" id="next-page">login</a>
+            <a href="register.html" id="next-page">Register</a>
+            <a href="catalog.html" id="next-page">catalog</a>
+        </div>
+    </div>
+    <div class="cart-page">
+        <div id="cart-items">
+            <img src="${img}" alt="${name}" class="cart-img" onerror="this.src='fallback-image.jpg'"/>
+        </div>
+        <div id="total-price"></div>
+    </div>
+    <div class="footer">
+        @ 2024 Shopping cart all rights reserved
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>
